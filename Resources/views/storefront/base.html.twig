@@ -1,0 +1,33 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+
+{% block base_body_inner %}
+	<div class="minds-custom-conversion-header" style="
+		background-color: {{ config('MindsCustomConversionHeader.config.backgroundColor') | default('#008490') }};
+		color: {{ config('MindsCustomConversionHeader.config.textColor') | default('#FFFFFF') }};
+	">
+		<div class="container">
+			{% for i in 0..4 %}
+				{%
+					set hideOnMobile = true
+				%}
+
+				{% if config('MindsCustomConversionHeader.config.mobileItem') == 'id' ~ i %}
+					{%
+						set hideOnMobile = false
+					%}
+				{% endif %}
+
+				{% if config('MindsCustomConversionHeader.config.active' ~ i) %}
+					<div class="mcch-item{{ hideOnMobile ? ' mcch-hide-mobile' : ' mcch-mobile' }}">
+						<div class="mcch-i">{% sw_include "@Storefront/storefront/utilities/icon.html.twig" with { 'name': config('MindsCustomConversionHeader.config.icon' ~ i) | default('alert'), 'color': config('MindsCustomConversionHeader.config.iconColor') | default('dark') } %}</div>
+						<div class="mcch-t">{{ ('minds-cch.title' ~ i) | trans() }}</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+
+	{{ parent() }}
+
+{% endblock %}

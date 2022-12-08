@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+	<card>
+		<title>Design</title>
+		<title lang="de-DE">Design</title>
+
+		<input-field type="colorpicker">
+            <name>backgroundColor</name>
+            <label>Background color</label>
+            <label lang="de-DE">Hintergrundsfarbe</label>
+            <defaultValue>#008490</defaultValue>
+        </input-field>
+
+		<input-field type="colorpicker">
+            <name>textColor</name>
+            <label>Text color</label>
+            <label lang="de-DE">Textfarbe</label>
+            <defaultValue>#FFFFFF</defaultValue>
+        </input-field>
+
+		<input-field type="single-select">
+			<name>iconColor</name>
+			<label>Icon color</label>
+			<label lang="de-DE">Icon Farbe</label>
+			<defaultValue>light</defaultValue>
+			<options>
+				<option>
+					<id>dark</id>
+					<name>Dark</name>
+				</option>
+				<option>
+					<id>light</id>
+					<name>Light</name>
+				</option>
+				<option>
+					<id>primary</id>
+					<name>Primary</name>
+				</option>
+				<option>
+					<id>secondary</id>
+					<name>Secondary</name>
+				</option>
+				<option>
+					<id>success</id>
+					<name>Success</name>
+				</option>
+				<option>
+					<id>danger</id>
+					<name>Danger</name>
+				</option>
+				<option>
+					<id>warning</id>
+					<name>Warning</name>
+				</option>
+				<option>
+					<id>info</id>
+					<name>Info</name>
+				</option>
+			</options>
+		</input-field>
+
+		<input-field type="single-select">
+			<name>mobileItem</name>
+			<label>Mobile item</label>
+			<label lang="de-DE">Mobiles Item</label>
+			<defaultValue>id1</defaultValue>
+			<options>
+				<option>
+					<id>id1</id>
+					<name>#1</name>
+				</option>
+				<option>
+					<id>id2</id>
+					<name>#2</name>
+				</option>
+				<option>
+					<id>id3</id>
+					<name>#3</name>
+				</option>
+				<option>
+					<id>id4</id>
+					<name>#4</name>
+				</option>
+			</options>
+		</input-field>
+	</card>
+
+	<card>
+		<title>#1</title>
+		<title lang="de-DE">#1</title>
+
+		<input-field type="bool">
+            <name>active1</name>
+            <label>Active</label>
+            <label lang="de-DE">Aktiviert</label>
+			<defaultValue>false</defaultValue>
+        </input-field>
+
+		<input-field type="single-select">
+			<name>icon1</name>
+			<label>Icon</label>
+			<label lang="de-DE">Icon</label>
+			<defaultValue>cart</defaultValue>
+			<options>
+				<option>
+					<id>cart</id>
+					<name>Cart</name>
+					<name lang="de-DE">Einkaufswagen</name>
+				</option>
+				<option>
+					<id>alert</id>
+					<name>Alert</name>
+					<name lang="de-DE">Alert</name>
+				</option>
+				<option>
+					<id>bell-bell</id>
+					<name>Bell</name>
+					<name lang="de-DE">Glocke</name>
+				</option>
+				<option>
+					<id>bag</id>
+					<name>Bag</name>
+					<name lang="de-DE">Tasche</name>
+				</option>
+				<option>
+					<id>emoji</id>
+					<name>Emoji</name>
+					<name lang="de-DE">Emoji</name>
+				</option>
+				<option>
+					<id>marketing</id>
+					<name>Megaphone</name>
+					<name lang="de-DE">Megaphon</name>
+				</option>
+				<option>
+					<id>star</id>
+					<name>Star</name>
+					<name lang="de-DE">Stern</name>
+				</option>
+				<option>
+					<id>heart</id>
+					<name>Heart</name>
+					<name lang="de-DE">Herz</name>
+				</option>
+				<option>
+					<id>package-gift</id>
+					<name>Gift</name>
+					<name lang="de-DE">Geschenk</name>
+				</option>
+				<option>
+					<id>package-open</id>
+					<name>Package</name>
+					<name lang="de-DE">Paket</name>
+				</option>
+				<option>
+					<id>shield</id>
+					<name>Shield</name>
+					<name lang="de-DE">Schild</name>
+				</option>
+			</options>
+		</input-field>
+
+		<component name="sw-snippet-field">
+             <name>title1</name>
+             <label>Title</label>
+             <label lang="de-DE">Titel</label>
+             <snippet>minds-cch.title1</snippet>
+         </component>
+	</card>
+
+		<card>
+		<title>#2</title>
+		<title lang="de-DE">#2</title>
+
+		<input-field type="bool">
+            <name>active2</name>
+            <label>Active</label>
+            <label lang="de-DE">Aktiviert</label>
+			<defaultValue>false</defaultValue>
+        </input-field>
+
+		<input-field type="single-select">
+			<name>icon2</name>
+			<label>Icon</label>
+			<label lang="de-DE">Icon</label>
+			<defaultValue>cart</defaultValue>
+			<options>
+				<option>
+					<id>cart</id>
+					<name>Cart</name>
+					<name lang="de-DE">Einkaufswagen</name>
+				</option>
+				<option>
+					<id>alert</id>
+					<name>Alert</name>
+					<name lang="de-DE">Alert</name>
+				</option>
+				<option>
+					<id>bell-bell</id>
+					<name>Bell</name>
+					<name lang="de-DE">Glocke</name>
+				</option>
+				<option>
+					<id>bag</id>
+					<name>Bag</name>
+					<name lang="de-DE">Tasche</name>
+				</option>
+				<option>
+					<id>emoji</id>
+					<name>Emoji</name>
+					<name lang="de-DE">Emoji</name>
+				</option>
+				<option>
+					<id>marketing</id>
+					<name>Megaphone</name>
+					<name lang="de-DE">Megaphon</name>
+				</option>
+				<option>
+					<id>star</id>
+					<name>Star</name>
+					<name lang="de-DE">Stern</name>
+				</option>
+				<option>
+					<id>heart</id>
+					<name>Heart</name>
+					<name lang="de-DE">Herz</name>
+				</option>
+				<option>
+					<id>package-gift</id>
+					<name>Gift</name>
+					<name lang="de-DE">Geschenk</name>
+				</option>
+				<option>
+					<id>package-open</id>
+					<name>Package</name>
+					<name lang="de-DE">Paket</name>
+				</option>
+				<option>
+					<id>shield</id>
+					<name>Shield</name>
+					<name lang="de-DE">Schild</name>
+				</option>
+			</options>
+		</input-field>
+
+		<component name="sw-snippet-field">
+             <name>title2</name>
+             <label>Title</label>
+             <label lang="de-DE">Titel</label>
+             <snippet>minds-cch.title2</snippet>
+         </component>
+	</card>
+
+	<card>
+		<title>#3</title>
+		<title lang="de-DE">#3</title>
+
+		<input-field type="bool">
+            <name>active3</name>
+            <label>Active</label>
+            <label lang="de-DE">Aktiviert</label>
+			<defaultValue>false</defaultValue>
+        </input-field>
+
+		<input-field type="single-select">
+			<name>icon3</name>
+			<label>Icon</label>
+			<label lang="de-DE">Icon</label>
+			<defaultValue>cart</defaultValue>
+			<options>
+				<option>
+					<id>cart</id>
+					<name>Cart</name>
+					<name lang="de-DE">Einkaufswagen</name>
+				</option>
+				<option>
+					<id>alert</id>
+					<name>Alert</name>
+					<name lang="de-DE">Alert</name>
+				</option>
+				<option>
+					<id>bell-bell</id>
+					<name>Bell</name>
+					<name lang="de-DE">Glocke</name>
+				</option>
+				<option>
+					<id>bag</id>
+					<name>Bag</name>
+					<name lang="de-DE">Tasche</name>
+				</option>
+				<option>
+					<id>emoji</id>
+					<name>Emoji</name>
+					<name lang="de-DE">Emoji</name>
+				</option>
+				<option>
+					<id>marketing</id>
+					<name>Megaphone</name>
+					<name lang="de-DE">Megaphon</name>
+				</option>
+				<option>
+					<id>star</id>
+					<name>Star</name>
+					<name lang="de-DE">Stern</name>
+				</option>
+				<option>
+					<id>heart</id>
+					<name>Heart</name>
+					<name lang="de-DE">Herz</name>
+				</option>
+				<option>
+					<id>package-gift</id>
+					<name>Gift</name>
+					<name lang="de-DE">Geschenk</name>
+				</option>
+				<option>
+					<id>package-open</id>
+					<name>Package</name>
+					<name lang="de-DE">Paket</name>
+				</option>
+				<option>
+					<id>shield</id>
+					<name>Shield</name>
+					<name lang="de-DE">Schild</name>
+				</option>
+			</options>
+		</input-field>
+
+		<component name="sw-snippet-field">
+             <name>title3</name>
+             <label>Title</label>
+             <label lang="de-DE">Titel</label>
+             <snippet>minds-cch.title3</snippet>
+         </component>
+	</card>
+
+	<card>
+		<title>#4</title>
+		<title lang="de-DE">#4</title>
+
+		<input-field type="bool">
+            <name>active4</name>
+            <label>Active</label>
+            <label lang="de-DE">Aktiviert</label>
+			<defaultValue>false</defaultValue>
+        </input-field>
+
+		<input-field type="single-select">
+			<name>icon4</name>
+			<label>Icon</label>
+			<label lang="de-DE">Icon</label>
+			<defaultValue>cart</defaultValue>
+			<options>
+				<option>
+					<id>cart</id>
+					<name>Cart</name>
+					<name lang="de-DE">Einkaufswagen</name>
+				</option>
+				<option>
+					<id>alert</id>
+					<name>Alert</name>
+					<name lang="de-DE">Alert</name>
+				</option>
+				<option>
+					<id>bell-bell</id>
+					<name>Bell</name>
+					<name lang="de-DE">Glocke</name>
+				</option>
+				<option>
+					<id>bag</id>
+					<name>Bag</name>
+					<name lang="de-DE">Tasche</name>
+				</option>
+				<option>
+					<id>emoji</id>
+					<name>Emoji</name>
+					<name lang="de-DE">Emoji</name>
+				</option>
+				<option>
+					<id>marketing</id>
+					<name>Megaphone</name>
+					<name lang="de-DE">Megaphon</name>
+				</option>
+				<option>
+					<id>star</id>
+					<name>Star</name>
+					<name lang="de-DE">Stern</name>
+				</option>
+				<option>
+					<id>heart</id>
+					<name>Heart</name>
+					<name lang="de-DE">Herz</name>
+				</option>
+				<option>
+					<id>package-gift</id>
+					<name>Gift</name>
+					<name lang="de-DE">Geschenk</name>
+				</option>
+				<option>
+					<id>package-open</id>
+					<name>Package</name>
+					<name lang="de-DE">Paket</name>
+				</option>
+				<option>
+					<id>shield</id>
+					<name>Shield</name>
+					<name lang="de-DE">Schild</name>
+				</option>
+			</options>
+		</input-field>
+
+		<component name="sw-snippet-field">
+             <name>title4</name>
+             <label>Title</label>
+             <label lang="de-DE">Titel</label>
+             <snippet>minds-cch.title4</snippet>
+         </component>
+	</card>
+
+
+</config>

@@ -1,0 +1,36 @@
+.minds-custom-conversion-header {
+	width: 100%;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+
+		.mcch-item {
+			display: flex;
+			align-items: center;
+			padding: 4px;
+			
+			.mcch-i {
+				margin-top: -2px;
+			}
+
+			.mcch-t {
+				padding-left: 8px;
+				font-weight: bold;
+			}
+		}
+	}
+
+	@media all and (max-width: 600px)
+	{
+		.mcch-hide-mobile {
+			display: none !important;
+			visibility: hidden;
+		}
+
+		.mcch-mobile {
+			margin: 0 auto;
+		}
+	}
+
+}
