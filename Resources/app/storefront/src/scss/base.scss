@@ -6,7 +6,19 @@
 		justify-content: space-between;
 
 		.mcch-item {
-			display: flex;
+
+			@media all and (max-width: 600px)
+			{
+				&:not(.mcch-hide-mobile) {
+					display: flex;
+				}
+			}
+
+			@media all and (min-width: 600px)
+			{
+				display: flex;
+			}
+
 			align-items: center;
 			padding: 4px;
 			
@@ -24,8 +36,7 @@
 	@media all and (max-width: 600px)
 	{
 		.mcch-hide-mobile {
-			display: none !important;
-			visibility: hidden;
+			display: none;
 		}
 
 		.mcch-mobile {

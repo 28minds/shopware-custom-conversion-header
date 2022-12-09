@@ -8,7 +8,7 @@
         <description lang="de-DE">Zeige wichtige Informationen am oberen Bildschirmrand einfach an!</description>
         <author>28minds Grzebka und Schwanitz GbR</author>
         <copyright>(c) 2022 28minds</copyright>
-        <version>1.1.0</version>
+        <version>1.1.1</version>
         <icon>Resources/config/plugin.png</icon>
         <license>MIT</license>
     </meta>
